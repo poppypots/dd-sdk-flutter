@@ -6,4 +6,5 @@ all:
 ifeq ($(wildcard venv),)
 	@echo "⚙️  Creating Python venv in $(PWD)"
 	python3 -m venv venv
+	echo "hi this is ASO"
 endif
